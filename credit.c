@@ -1,9 +1,10 @@
-#include <cs50.h>
 #include <stdio.h>
+
 long get_number(void);
 int calculate_credit_card_luhn_sum(long credit_card);
 int check_length(long credit_card);
 long check_digit(int credit_card_length);
+
 int main(void)
 {
     //function prototype
@@ -49,7 +50,8 @@ int main(void)
 long get_number(void)
 {
     long credit_card;
-    credit_card = get_long("Number: ");
+    printf("Number: ");
+    scanf("%ld", &credit_card);
     return credit_card;
 }
 //calculate the sum according to Luhn's algorithm
