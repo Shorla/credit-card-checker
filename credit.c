@@ -11,7 +11,7 @@ int main(void)
     int sum = calculate_credit_card_luhn_sum(credit_card);
     int credit_card_length = check_length(credit_card);
     long divisor = check_digit(credit_card_length);
-    string card_type;
+    char *card_type;
 
     //get the digits
     long first_digit = credit_card / divisor;
