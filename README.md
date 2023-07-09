@@ -20,17 +20,26 @@ To get a local copy up and running follow these simple example steps:
 
 ### Clone the repo
 
+```
 git clone https://github.com/Shorla/credit-card-checker.git
+
+```
 
 ### Open the repo on your favourite IDE
 
 ### Compile the code by running on your terminal
 
+```
 make credit
+
+```
 
 ### Run the code using
 
+```
 ./credit
+
+```
 
 ### A prompt asking for your card number comes up, fill it and enter.
 
